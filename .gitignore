@@ -34,9 +34,12 @@ VersionX-revision.h
 *CMakeFiles/
 *CMakeScripts/
 *.cache
+*.pbxindex
 # build products
-build/
+build
+build/*
 *.build
+Debug/*
 *.[oa]
 # Other source repository archive directories (protects when importing)
 .hg
