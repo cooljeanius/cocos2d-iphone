@@ -49,7 +49,7 @@ typedef enum {
 	/// A vertical orientation where the Up is nearer
 	kOrientationUpOver = 0,
 	/// A vertical orientation where the Bottom is nearer
-	kOrientationDownOver = 1,
+	kOrientationDownOver = 1
 } tOrientation;
 
 /** Base class for CCTransition scenes

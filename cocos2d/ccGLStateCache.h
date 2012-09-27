@@ -37,7 +37,7 @@ enum {
 	kCCVertexAttribFlag_Color		= 1 << 1,
 	kCCVertexAttribFlag_TexCoords	= 1 << 2,
 
-	kCCVertexAttribFlag_PosColorTex = ( kCCVertexAttribFlag_Position | kCCVertexAttribFlag_Color | kCCVertexAttribFlag_TexCoords ),
+	kCCVertexAttribFlag_PosColorTex = ( kCCVertexAttribFlag_Position | kCCVertexAttribFlag_Color | kCCVertexAttribFlag_TexCoords )
 };
 
 /** GL server side states */
@@ -49,7 +49,7 @@ typedef enum {
 //	CC_GL_DITHER = 1 << 4,
 
 //	CC_GL_ALL = ( CC_GL_SCISSOR_TEST | CC_GL_STENCIL_TEST | CC_GL_DEPTH_TEST | CC_GL_BLEND | CC_GL_DITHER ),
-	CC_GL_ALL = ( CC_GL_BLEND ),
+	CC_GL_ALL = ( CC_GL_BLEND )
 
 } ccGLServerState;
 

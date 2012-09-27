@@ -2,13 +2,16 @@
 # cocos2d specific
 PLBlocks.framework/*
 *.pyc 
+*/*.pyc
+*.pyo
 
 # old school
 .svn
 
+
 # osx noise
 .DS_store
-.DS_Store
+*.DS_Store
 profile
 
 # Mac OS X Finder
@@ -27,8 +30,13 @@ xcuserdata/
 project.xcworkspace/
 # Generated files
 VersionX-revision.h
+*CMakeCache.*
+*CMakeFiles/
+*CMakeScripts/
+*.cache
 # build products
 build/
+*.build
 *.[oa]
 # Other source repository archive directories (protects when importing)
 .hg

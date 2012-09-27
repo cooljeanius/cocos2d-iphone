@@ -35,7 +35,7 @@ typedef enum  {
 
 enum {
 	//* priority used by the menu for the event handler
-	kCCMenuHandlerPriority = -128,
+	kCCMenuHandlerPriority = -128
 };
 
 /** A CCMenu

@@ -46,7 +46,7 @@ typedef enum {
 	kCCDirectorProjectionCustom,
 
 	/// Detault projection is 3D projection
-	kCCDirectorProjectionDefault = kCCDirectorProjection3D,
+	kCCDirectorProjectionDefault = kCCDirectorProjection3D
 
 } ccDirectorProjection;
 
@@ -102,7 +102,7 @@ and when to execute the Scenes.
 
 	/* is the running scene paused */
 	BOOL isPaused_;
-    
+
     /* Is the director running */
     BOOL isAnimating_;
 
@@ -149,7 +149,7 @@ and when to execute the Scenes.
 
 	/* action manager associated with this director */
 	CCActionManager *actionManager_;
-	
+
 	/*  OpenGLView. On iOS it is a copy of self.view */
 	CCGLView		*view_;
 }

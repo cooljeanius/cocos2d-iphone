@@ -45,7 +45,7 @@ enum {
 	TMXLayerAttribNone = 1 << 0,
 	TMXLayerAttribBase64 = 1 << 1,
 	TMXLayerAttribGzip = 1 << 2,
-	TMXLayerAttribZlib = 1 << 3,
+	TMXLayerAttribZlib = 1 << 3
 };
 
 enum {
@@ -63,7 +63,7 @@ typedef enum ccTMXTileFlags_ {
 	kCCTMXTileDiagonalFlag			= 0x20000000,
 
 	kCCFlipedAll					= (kCCTMXTileHorizontalFlag|kCCTMXTileVerticalFlag|kCCTMXTileDiagonalFlag),
-	kCCFlippedMask					= ~(kCCFlipedAll),
+	kCCFlippedMask					= ~(kCCFlipedAll)
 } ccTMXTileFlags;
 
 // Bits on the far end of the 32-bit global tile ID (GID's) are used for tile flags

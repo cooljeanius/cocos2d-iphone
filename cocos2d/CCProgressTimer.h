@@ -33,7 +33,7 @@ typedef enum {
 	/// Radial Counter-Clockwise
 	kCCProgressTimerTypeRadial,
 	/// Bar
-	kCCProgressTimerTypeBar,
+	kCCProgressTimerTypeBar
 } CCProgressTimerType;
 
 /**

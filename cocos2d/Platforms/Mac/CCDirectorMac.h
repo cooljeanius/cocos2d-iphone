@@ -38,7 +38,7 @@ enum  {
 	/// If the window is resized, it won't be autoscaled
 	kCCDirectorResize_NoScale,
 	/// If the window is resized, it will be autoscaled (default behavior)
-	kCCDirectorResize_AutoScale,
+	kCCDirectorResize_AutoScale
 };
 
 @interface CCDirector (MacExtension)

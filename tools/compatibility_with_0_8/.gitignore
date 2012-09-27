@@ -1,0 +1,4 @@
+*.pyc 
+*/*.pyc
+*.pyo
+classes_0_8.pyc

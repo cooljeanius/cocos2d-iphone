@@ -38,7 +38,7 @@
 typedef enum
 {
 	kCCImageFormatJPEG = 0,
-	kCCImageFormatPNG = 1,
+	kCCImageFormatPNG = 1
 } tCCImageFormat;
 
 

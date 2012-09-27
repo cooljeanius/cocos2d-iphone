@@ -60,7 +60,7 @@ struct CCPVRMipmap {
 };
 
 enum {
-	CC_PVRMIPMAP_MAX = 16,
+	CC_PVRMIPMAP_MAX = 16
 };
 
 /** CCTexturePVR

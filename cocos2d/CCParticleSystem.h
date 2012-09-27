@@ -45,7 +45,7 @@ enum {
 
 	// backward compatible
 	kParticleStartSizeEqualToEndSize = kCCParticleStartSizeEqualToEndSize,
-	kParticleDurationInfinity = kCCParticleDurationInfinity,
+	kParticleDurationInfinity = kCCParticleDurationInfinity
 };
 
 //* @enum
@@ -54,7 +54,7 @@ enum {
 	kCCParticleModeGravity,
 
 	/** Radius mode (B mode) */
-	kCCParticleModeRadius,
+	kCCParticleModeRadius
 };
 
 
@@ -71,13 +71,13 @@ typedef enum {
 	kCCPositionTypeRelative,
 
 	/** Living particles are attached to the emitter and are translated along with it. */
-	kCCPositionTypeGrouped,
+	kCCPositionTypeGrouped
 }tCCPositionType;
 
 // backward compatible
 enum {
 	kPositionTypeFree = kCCPositionTypeFree,
-	kPositionTypeGrouped = kCCPositionTypeGrouped,
+	kPositionTypeGrouped = kCCPositionTypeGrouped
 };
 
 /** @struct tCCParticle

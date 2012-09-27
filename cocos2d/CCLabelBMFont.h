@@ -37,7 +37,7 @@
 #import "Support/uthash.h"
 
 enum {
-	kCCLabelAutomaticWidth = -1,
+	kCCLabelAutomaticWidth = -1
 };
 
 struct _KerningHashElement;
@@ -143,7 +143,7 @@ typedef struct _BMFontPadding {
 {
 	// string to render
 	NSString		*string_;
-    
+
     // name of fntFile
     NSString        *fntFile_;
 
@@ -160,7 +160,7 @@ typedef struct _BMFontPadding {
 	GLubyte		opacity_;
 	ccColor3B	color_;
 	BOOL opacityModifyRGB_;
-	
+
 	// offset of the texture atlas
 	CGPoint			imageOffset_;
 }

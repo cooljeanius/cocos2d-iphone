@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2A7C20CF43E048C9BE6579F8 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F4B370DCC8654BE0AFE732A1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				C35C0DD642BE4838A1E1B348 /* CMake Rules */,
+			);
+			dependencies = (
+				E4A372CBD47849CBBAC56C56 /* PBXTargetDependency */,
+				81524F6CA90A4EC6934C374B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		514D33EDC65F46B1A5B03A69 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DAEBCDE140A44C33BB360754 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				81DA24D86A9D49A5A266073D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FA28A0B4A73A4051958C4FAD /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 91881C54952943EEA537D46F /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				80C29650AB854B2382F71D50 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				EEEE53FEF99445EAA4A72CB9 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		0B2C4F446CB748E88DFBA3BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B20D90315554D18A36CE459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 514D33EDC65F46B1A5B03A69;
+			remoteInfo = ZERO_CHECK;
+		};
+		A6A59714A55C4307AD43A2B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B20D90315554D18A36CE459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC24A3F7B78410F831A5B48;
+			remoteInfo = kazmath;
+		};
+		EF08C478D00B496BA3A7284E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B20D90315554D18A36CE459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A7C20CF43E048C9BE6579F8;
+			remoteInfo = ALL_BUILD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7979C028015E4F5EB3C92499 /* lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = lib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51597F91612744B003BE1F4 /* vec4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec4.c; sourceTree = "<group>"; };
+		A51597FA1612744B003BE1F4 /* vec3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec3.c; sourceTree = "<group>"; };
+		A51597FB1612744B003BE1F4 /* vec2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec2.c; sourceTree = "<group>"; };
+		A51597FC1612744B003BE1F4 /* utility.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utility.c; sourceTree = "<group>"; };
+		A51597FD1612744B003BE1F4 /* ray2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ray2.c; sourceTree = "<group>"; };
+		A51597FE1612744B003BE1F4 /* quaternion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = quaternion.c; sourceTree = "<group>"; };
+		A51597FF1612744B003BE1F4 /* plane.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = plane.c; sourceTree = "<group>"; };
+		A51598001612744B003BE1F4 /* neon_matrix_impl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = neon_matrix_impl.c; sourceTree = "<group>"; };
+		A51598011612744B003BE1F4 /* mat4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mat4.c; sourceTree = "<group>"; };
+		A51598021612744B003BE1F4 /* mat3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mat3.c; sourceTree = "<group>"; };
+		A51598041612744B003BE1F4 /* mat4stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mat4stack.c; sourceTree = "<group>"; };
+		A51598051612744B003BE1F4 /* matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = matrix.c; sourceTree = "<group>"; };
+		A51598061612744B003BE1F4 /* aabb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aabb.c; sourceTree = "<group>"; };
+		A51598071612745D003BE1F4 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		F68D43488F9A43ED89524488 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		35E3AFDD6A37411F90031182 = {
+			isa = PBXGroup;
+			children = (
+				5ED1B591A18646119CC82BA5 /* Sources */,
+				AB3B84948FF54761BD748CDF /* Resources */,
+				782653974C1544FF8A1EC1A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ED1B591A18646119CC82BA5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				64E47B87CEAF4233963F562A /* ALL_BUILD */,
+				D1831BEEE61E4D54A7287F88 /* ZERO_CHECK */,
+				669C6C5151F54162AB9178CE /* kazmath */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		64E47B87CEAF4233963F562A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				EFCC3CFC519C40B1A3583AFC /* CMake Rules */,
+				F68D43488F9A43ED89524488 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		669C6C5151F54162AB9178CE /* kazmath */ = {
+			isa = PBXGroup;
+			children = (
+				A51597F91612744B003BE1F4 /* vec4.c */,
+				A51597FA1612744B003BE1F4 /* vec3.c */,
+				A51597FB1612744B003BE1F4 /* vec2.c */,
+				A51597FC1612744B003BE1F4 /* utility.c */,
+				A51597FD1612744B003BE1F4 /* ray2.c */,
+				A51597FE1612744B003BE1F4 /* quaternion.c */,
+				A51597FF1612744B003BE1F4 /* plane.c */,
+				A51598001612744B003BE1F4 /* neon_matrix_impl.c */,
+				A51598011612744B003BE1F4 /* mat4.c */,
+				A51598021612744B003BE1F4 /* mat3.c */,
+				A51598031612744B003BE1F4 /* GL */,
+				A51598061612744B003BE1F4 /* aabb.c */,
+				F68D43488F9A43ED89524488 /* CMakeLists.txt */,
+			);
+			name = kazmath;
+			sourceTree = "<group>";
+		};
+		7143451ED98A45D3A4D3D99D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		782653974C1544FF8A1EC1A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7979C028015E4F5EB3C92499 /* lib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A51598031612744B003BE1F4 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				A51598041612744B003BE1F4 /* mat4stack.c */,
+				A51598051612744B003BE1F4 /* matrix.c */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+		AB3B84948FF54761BD748CDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A51598071612745D003BE1F4 /* ChangeLog */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D1831BEEE61E4D54A7287F88 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				7143451ED98A45D3A4D3D99D /* CMake Rules */,
+				F68D43488F9A43ED89524488 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		EFCC3CFC519C40B1A3583AFC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC24A3F7B78410F831A5B48 /* kazmath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539F8529FEB34EC29F220A16 /* Build configuration list for PBXNativeTarget "kazmath" */;
+			buildPhases = (
+				6F426A73E24F42FF9888E4CE /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4A372CBD47849CBBAC56C56 /* PBXTargetDependency */,
+			);
+			name = kazmath;
+			productName = kazmath;
+			productReference = 7979C028015E4F5EB3C92499 /* lib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B20D90315554D18A36CE459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 15C758A7FDF54B6789A0976F /* Build configuration list for PBXProject "Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 35E3AFDD6A37411F90031182;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A7C20CF43E048C9BE6579F8 /* ALL_BUILD */,
+				514D33EDC65F46B1A5B03A69 /* ZERO_CHECK */,
+				FA28A0B4A73A4051958C4FAD /* install */,
+				ACC24A3F7B78410F831A5B48 /* kazmath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F426A73E24F42FF9888E4CE /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ericgallager/cocos2d-iphone/external/kazmath/src -f /Users/ericgallager/cocos2d-iphone/external/kazmath/src/CMakeScripts/kazmath_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		80C29650AB854B2382F71D50 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ericgallager/cocos2d-iphone/external/kazmath/src -f /Users/ericgallager/cocos2d-iphone/external/kazmath/src/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		81DA24D86A9D49A5A266073D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ericgallager/cocos2d-iphone/external/kazmath/src -f /Users/ericgallager/cocos2d-iphone/external/kazmath/src/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		C35C0DD642BE4838A1E1B348 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/ericgallager/cocos2d-iphone/external/kazmath/src -f /Users/ericgallager/cocos2d-iphone/external/kazmath/src/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81524F6CA90A4EC6934C374B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC24A3F7B78410F831A5B48 /* kazmath */;
+			targetProxy = A6A59714A55C4307AD43A2B6 /* PBXContainerItemProxy */;
+		};
+		E4A372CBD47849CBBAC56C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 514D33EDC65F46B1A5B03A69 /* ZERO_CHECK */;
+			targetProxy = 0B2C4F446CB748E88DFBA3BC /* PBXContainerItemProxy */;
+		};
+		EEEE53FEF99445EAA4A72CB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A7C20CF43E048C9BE6579F8 /* ALL_BUILD */;
+			targetProxy = EF08C478D00B496BA3A7284E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04E7B9465D0044CCBAF3B79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.6.sdk;
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/build";
+			};
+			name = Release;
+		};
+		0D11361D43BE4D3A9C394445 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/include";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		21DA584ACDA749509C044DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/include";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		273B74BF368C409DBC811A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		499B73527EE549B6BA7B27CF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = MinSizeRel;
+		};
+		4FA0F59B7D484AD4AA56D542 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/include";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		4FBCD600129C422A927D6B45 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/include";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		5C69E3143DD64E80AF6D34D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.6.sdk;
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/build";
+			};
+			name = Debug;
+		};
+		7A284E82E263470AAE772BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/include";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		ACD52A2FBCAC4AE8BE5A768D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/include";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		AF9C15D6B86649F896865049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/include";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		B1C240A66DD24CD79833BB8B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/include";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		BA9AB5F2E3234AD894FCF0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/include";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		BAE5F2C2511943BCA913742D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C0220EC8AADF48AFB94EE5CD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.6.sdk;
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/build";
+			};
+			name = MinSizeRel;
+		};
+		C1E27673E0424A308CEE5D87 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/include";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		C20B4CB47704436DB1E697AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/include";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		D4C7CD6D7E3949DF8662A8CB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/include";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = (
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		E2D7B14E4A9C480B9399230D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.6.sdk;
+				SYMROOT = "/Users/ericgallager/cocos2d-iphone/external/kazmath/src/build";
+			};
+			name = RelWithDebInfo;
+		};
+		EC65E53AE3494AA6A733EA50 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C758A7FDF54B6789A0976F /* Build configuration list for PBXProject "Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C69E3143DD64E80AF6D34D0 /* Debug */,
+				04E7B9465D0044CCBAF3B79B /* Release */,
+				C0220EC8AADF48AFB94EE5CD /* MinSizeRel */,
+				E2D7B14E4A9C480B9399230D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		539F8529FEB34EC29F220A16 /* Build configuration list for PBXNativeTarget "kazmath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273B74BF368C409DBC811A79 /* Debug */,
+				BAE5F2C2511943BCA913742D /* Release */,
+				499B73527EE549B6BA7B27CF /* MinSizeRel */,
+				EC65E53AE3494AA6A733EA50 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		91881C54952943EEA537D46F /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF9C15D6B86649F896865049 /* Debug */,
+				ACD52A2FBCAC4AE8BE5A768D /* Release */,
+				C1E27673E0424A308CEE5D87 /* MinSizeRel */,
+				4FA0F59B7D484AD4AA56D542 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAEBCDE140A44C33BB360754 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DA584ACDA749509C044DE5 /* Debug */,
+				7A284E82E263470AAE772BA6 /* Release */,
+				4FBCD600129C422A927D6B45 /* MinSizeRel */,
+				D4C7CD6D7E3949DF8662A8CB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4B370DCC8654BE0AFE732A1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20B4CB47704436DB1E697AA /* Debug */,
+				BA9AB5F2E3234AD894FCF0B2 /* Release */,
+				B1C240A66DD24CD79833BB8B /* MinSizeRel */,
+				0D11361D43BE4D3A9C394445 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B20D90315554D18A36CE459 /* Project object */;
+}

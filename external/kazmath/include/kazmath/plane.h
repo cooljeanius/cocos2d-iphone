@@ -50,7 +50,7 @@ extern "C" {
 typedef enum POINT_CLASSIFICATION {
 	POINT_INFRONT_OF_PLANE = 0,
 	POINT_BEHIND_PLANE,
-	POINT_ON_PLANE,
+	POINT_ON_PLANE
 } POINT_CLASSIFICATION;
 
 const kmScalar kmPlaneDot(const kmPlane* pP, const struct kmVec4* pV);

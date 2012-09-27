@@ -36,14 +36,14 @@ enum {
 	kCCVertexAttrib_Color,
 	kCCVertexAttrib_TexCoords,
 
-	kCCVertexAttrib_MAX,
+	kCCVertexAttrib_MAX
 };
 
 enum {
 	kCCUniformMVPMatrix,
 	kCCUniformSampler,
 
-	kCCUniform_MAX,
+	kCCUniform_MAX
 };
 
 #define kCCShader_PositionTextureColor			@"ShaderPositionTextureColor"
@@ -69,8 +69,8 @@ struct _hashUniformEntry;
 
 /** CCGLProgram
  Class that implements a glProgram
- 
- 
+
+
  @since v2.0.0
  */
 @interface CCGLProgram : NSObject

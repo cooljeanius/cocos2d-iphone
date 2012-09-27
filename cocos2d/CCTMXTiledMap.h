@@ -43,7 +43,7 @@ enum
 	CCTMXOrientationHex,
 
 	/** Isometric orientation */
-	CCTMXOrientationIso,
+	CCTMXOrientationIso
 };
 
 /** CCTMXTiledMap knows how to parse and render a TMX map.

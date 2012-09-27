@@ -34,7 +34,7 @@
 #import "kazmath/kazmath.h"
 
 enum {
-	kCCNodeTagInvalid = -1,
+	kCCNodeTagInvalid = -1
 };
 
 @class CCCamera;
@@ -177,7 +177,7 @@ enum {
 	// Used by CCLayer and CCScene
 	BOOL ignoreAnchorPointForPosition_;
 
-	BOOL isReorderChildDirty_;	
+	BOOL isReorderChildDirty_;
 }
 
 /** The z order of the node relative to its "siblings": children of the same parent */

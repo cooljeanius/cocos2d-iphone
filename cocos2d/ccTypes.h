@@ -326,13 +326,13 @@ typedef enum
 	kCCResolutioniPad,
 	//! iPad Retina Display resolution type
 	kCCResolutioniPadRetinaDisplay,
-	
+
 #elif defined(__CC_PLATFORM_MAC)
 	//! Mac resolution type
 	kCCResolutionMac,
 
 	//! Mac RetinaDisplay resolution type (???)
-	kCCResolutionMacRetinaDisplay,
+	kCCResolutionMacRetinaDisplay
 #endif // platform
 
 } ccResolutionType;
@@ -343,7 +343,7 @@ typedef enum
 {
     kCCVerticalTextAlignmentTop,
     kCCVerticalTextAlignmentCenter,
-    kCCVerticalTextAlignmentBottom,
+    kCCVerticalTextAlignmentBottom
 } CCVerticalTextAlignment;
 
 // XXX: If any of these enums are edited and/or reordered, udpate CCTexture2D.m
@@ -352,7 +352,7 @@ typedef enum
 {
 	kCCTextAlignmentLeft,
 	kCCTextAlignmentCenter,
-	kCCTextAlignmentRight,
+	kCCTextAlignmentRight
 } CCTextAlignment;
 
 // XXX: If any of these enums are edited and/or reordered, udpate CCTexture2D.m

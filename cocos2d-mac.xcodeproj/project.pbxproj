@@ -244,7 +244,7 @@
 		A00943F915181C8D0029A5C6 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		A00943FA15181C8D0029A5C6 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		A00943FB15181C8D0029A5C6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		A00943FC15181C8D0029A5C6 /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		A00943FC15181C8D0029A5C6 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		A009440515181D150029A5C6 /* MultithreadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A009440415181D150029A5C6 /* MultithreadTest.m */; };
 		A009FB83150EC87500897349 /* ccShader_Position_uColor_frag.h in Headers */ = {isa = PBXBuildFile; fileRef = A009FB74150EC87500897349 /* ccShader_Position_uColor_frag.h */; };
 		A009FB84150EC87500897349 /* ccShader_Position_uColor_vert.h in Headers */ = {isa = PBXBuildFile; fileRef = A009FB75150EC87500897349 /* ccShader_Position_uColor_vert.h */; };
@@ -366,7 +366,7 @@
 		A03416CF15487C3C00AE4D93 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		A03416D015487C3C00AE4D93 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		A03416D115487C3C00AE4D93 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		A03416D215487C3C00AE4D93 /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		A03416D215487C3C00AE4D93 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		A03416DD15487F4A00AE4D93 /* JavascriptJSCocoaTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A03416DC15487F4A00AE4D93 /* JavascriptJSCocoaTest.m */; };
 		A03416F11548801100AE4D93 /* BridgeSupportController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03416E21548801100AE4D93 /* BridgeSupportController.m */; };
 		A03416F21548801100AE4D93 /* class.js in Resources */ = {isa = PBXBuildFile; fileRef = A03416E31548801100AE4D93 /* class.js */; };
@@ -580,7 +580,7 @@
 		A0443E7D14A42E4500E62742 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		A0443E7E14A42E4500E62742 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		A0443E7F14A42E4500E62742 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		A0443E8014A42E4500E62742 /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		A0443E8014A42E4500E62742 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		A0443E8A14A42EBB00E62742 /* EffectsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A0443E8914A42EBB00E62742 /* EffectsTest.m */; };
 		A04441C814A5158500E62742 /* Box2D.h in Headers */ = {isa = PBXBuildFile; fileRef = A044416414A5158500E62742 /* Box2D.h */; };
 		A04441C914A5158500E62742 /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A044416814A5158500E62742 /* b2BroadPhase.cpp */; };
@@ -775,7 +775,7 @@
 		A04442F914A515EE00E62742 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		A04442FA14A515EE00E62742 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		A04442FB14A515EE00E62742 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		A04442FC14A515EE00E62742 /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		A04442FC14A515EE00E62742 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		A044431A14A5167E00E62742 /* A Damn Mess.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A21225EDD000DE0DA2 /* A Damn Mess.ttf */; };
 		A044431B14A5167E00E62742 /* Abberancy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A31225EDD000DE0DA2 /* Abberancy.ttf */; };
 		A044431C14A5167E00E62742 /* Abduction.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A41225EDD000DE0DA2 /* Abduction.ttf */; };
@@ -878,7 +878,7 @@
 		A044437F14A5167E00E62742 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		A044438014A5167E00E62742 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		A044438114A5167E00E62742 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		A044438214A5167E00E62742 /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		A044438214A5167E00E62742 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		A044438D14A516F000E62742 /* ChipmunkAccelTouchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A044438C14A516F000E62742 /* ChipmunkAccelTouchTest.m */; };
 		A044438E14A518AF00E62742 /* libchipmunk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0FBA8A614A51386002DF395 /* libchipmunk.a */; };
 		A044439114A6023800E62742 /* Box2dTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = A044439014A6023800E62742 /* Box2dTest.mm */; };
@@ -1430,7 +1430,7 @@
 		A098109514B9DDDA004812AD /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		A098109614B9DDDA004812AD /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		A098109714B9DDDA004812AD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		A098109814B9DDDA004812AD /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		A098109814B9DDDA004812AD /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		A09810B214B9DE1B004812AD /* A Damn Mess.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A21225EDD000DE0DA2 /* A Damn Mess.ttf */; };
 		A09810B314B9DE1B004812AD /* Abberancy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A31225EDD000DE0DA2 /* Abberancy.ttf */; };
 		A09810B414B9DE1B004812AD /* Abduction.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A41225EDD000DE0DA2 /* Abduction.ttf */; };
@@ -1627,7 +1627,7 @@
 		A098117514B9DE1B004812AD /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		A098117614B9DE1B004812AD /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		A098117714B9DE1B004812AD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		A098117814B9DE1B004812AD /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		A098117814B9DE1B004812AD /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		A098119214B9DE3A004812AD /* A Damn Mess.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A21225EDD000DE0DA2 /* A Damn Mess.ttf */; };
 		A098119314B9DE3A004812AD /* Abberancy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A31225EDD000DE0DA2 /* Abberancy.ttf */; };
 		A098119414B9DE3A004812AD /* Abduction.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A41225EDD000DE0DA2 /* Abduction.ttf */; };
@@ -1824,7 +1824,7 @@
 		A098125514B9DE3A004812AD /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		A098125614B9DE3A004812AD /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		A098125714B9DE3A004812AD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		A098125814B9DE3A004812AD /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		A098125814B9DE3A004812AD /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		A098127214B9DE55004812AD /* A Damn Mess.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A21225EDD000DE0DA2 /* A Damn Mess.ttf */; };
 		A098127314B9DE55004812AD /* Abberancy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A31225EDD000DE0DA2 /* Abberancy.ttf */; };
 		A098127414B9DE55004812AD /* Abduction.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A41225EDD000DE0DA2 /* Abduction.ttf */; };
@@ -2021,7 +2021,7 @@
 		A098133514B9DE55004812AD /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		A098133614B9DE55004812AD /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		A098133714B9DE55004812AD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		A098133814B9DE55004812AD /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		A098133814B9DE55004812AD /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		A098134714B9DF2E004812AD /* NodeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A0980FBD14B9DDBF004812AD /* NodeTest.m */; };
 		A098134814B9DF33004812AD /* LayerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A0980FBB14B9DDAF004812AD /* LayerTest.m */; };
 		A098134914B9DF3A004812AD /* SceneTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A0980FB914B9DD9B004812AD /* SceneTest.m */; };
@@ -2115,7 +2115,7 @@
 		A0ADF03D14584BD3009A71F1 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		A0ADF03E14584BD3009A71F1 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		A0ADF03F14584BD3009A71F1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		A0ADF04014584BD3009A71F1 /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		A0ADF04014584BD3009A71F1 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		A0ADF04A14584C9B009A71F1 /* ShaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A0ADF04914584C9B009A71F1 /* ShaderTest.m */; };
 		A0B532B913C141FF0072EDA4 /* aabb.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B5329A13C141FF0072EDA4 /* aabb.h */; };
 		A0B532BA13C141FF0072EDA4 /* mat4stack.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B5329C13C141FF0072EDA4 /* mat4stack.h */; };
@@ -2385,7 +2385,7 @@
 		E026451212A59DA7009D04FE /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		E026451312A59DA7009D04FE /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		E026451412A59DA7009D04FE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		E026451512A59DA7009D04FE /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		E026451512A59DA7009D04FE /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		E026451E12A59E07009D04FE /* ParticleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E026451D12A59E07009D04FE /* ParticleTest.m */; };
 		E02A8538129F11BF00341C97 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E02A8537129F11BF00341C97 /* icon.icns */; };
 		E02A8539129F11BF00341C97 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E02A8537129F11BF00341C97 /* icon.icns */; };
@@ -3531,7 +3531,7 @@
 		E076EFBA1225FF5800DE0DA2 /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = E076EFA21225FF5800DE0DA2 /* pngwrite.c */; };
 		E076EFBB1225FF5800DE0DA2 /* pngwtran.c in Sources */ = {isa = PBXBuildFile; fileRef = E076EFA31225FF5800DE0DA2 /* pngwtran.c */; };
 		E076EFBC1225FF5800DE0DA2 /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = E076EFA41225FF5800DE0DA2 /* pngwutil.c */; };
-		E076EFC11225FF8C00DE0DA2 /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		E076EFC11225FF8C00DE0DA2 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		E076F14C12268A9800DE0DA2 /* A Damn Mess.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A21225EDD000DE0DA2 /* A Damn Mess.ttf */; };
 		E076F14D12268A9800DE0DA2 /* Abberancy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A31225EDD000DE0DA2 /* Abberancy.ttf */; };
 		E076F14E12268A9800DE0DA2 /* Abduction.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A41225EDD000DE0DA2 /* Abduction.ttf */; };
@@ -3725,7 +3725,7 @@
 		E076F21312268A9800DE0DA2 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		E076F21412268A9800DE0DA2 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		E076F21512268A9800DE0DA2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		E076F21612268A9800DE0DA2 /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		E076F21612268A9800DE0DA2 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		E076F21F12268AF100DE0DA2 /* SpriteTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E076F21E12268AF100DE0DA2 /* SpriteTest.m */; };
 		E0796B5812DF8A8C002442F5 /* futura-48.fnt in Resources */ = {isa = PBXBuildFile; fileRef = E0796B5612DF8A8C002442F5 /* futura-48.fnt */; };
 		E0796B5912DF8A8C002442F5 /* futura-48.png in Resources */ = {isa = PBXBuildFile; fileRef = E0796B5712DF8A8C002442F5 /* futura-48.png */; };
@@ -4509,7 +4509,7 @@
 		E0B92DC61226A0C9003FF67E /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		E0B92DC71226A0C9003FF67E /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		E0B92DC81226A0C9003FF67E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		E0B92DC91226A0C9003FF67E /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		E0B92DC91226A0C9003FF67E /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		E0B92DD41226A123003FF67E /* ParallaxTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B92DD31226A123003FF67E /* ParallaxTest.m */; };
 		E0B92E281226A621003FF67E /* A Damn Mess.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A21225EDD000DE0DA2 /* A Damn Mess.ttf */; };
 		E0B92E291226A621003FF67E /* Abberancy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A31225EDD000DE0DA2 /* Abberancy.ttf */; };
@@ -4704,7 +4704,7 @@
 		E0B92EEF1226A621003FF67E /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		E0B92EF01226A621003FF67E /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		E0B92EF11226A621003FF67E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		E0B92EF21226A621003FF67E /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		E0B92EF21226A621003FF67E /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		E0B92EFB1226A67B003FF67E /* EffectsAdvancedTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B92EFA1226A67B003FF67E /* EffectsAdvancedTest.m */; };
 		E0B92F3A1226C0DD003FF67E /* A Damn Mess.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A21225EDD000DE0DA2 /* A Damn Mess.ttf */; };
 		E0B92F3B1226C0DD003FF67E /* Abberancy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E076E7A31225EDD000DE0DA2 /* Abberancy.ttf */; };
@@ -5191,7 +5191,7 @@
 		E0DA433B12A03A3C00210ACE /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E663D121CA00A001A484F /* libcocos2d.a */; };
 		E0DA433C12A03A3C00210ACE /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01E6A3D121EDCD3001A484F /* ApplicationServices.framework */; };
 		E0DA433D12A03A3C00210ACE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F9256D1224207200EF2362 /* libz.dylib */; };
-		E0DA433E12A03A3C00210ACE /* liblibpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */; };
+		E0DA433E12A03A3C00210ACE /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E076EDB91225FEAA00DE0DA2 /* libpng.a */; };
 		E0DA434912A03AE200210ACE /* FullScreenTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DA434812A03AE100210ACE /* FullScreenTest.m */; };
 /* End PBXBuildFile section */
 
@@ -6423,7 +6423,7 @@
 		E076EDAB1225FDE300DE0DA2 /* TextureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E076EDAE1225FE2E00DE0DA2 /* Texture2dTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Texture2dTest.h; path = tests/Texture2dTest.h; sourceTree = "<group>"; };
 		E076EDAF1225FE2E00DE0DA2 /* Texture2dTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Texture2dTest.m; path = tests/Texture2dTest.m; sourceTree = "<group>"; };
-		E076EDB91225FEAA00DE0DA2 /* liblibpng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibpng.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E076EDB91225FEAA00DE0DA2 /* libpng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpng.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E076EF8B1225FF5800DE0DA2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = external/libpng/LICENSE; sourceTree = "<group>"; };
 		E076EF8D1225FF5800DE0DA2 /* png.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = png.c; path = external/libpng/png.c; sourceTree = "<group>"; };
 		E076EF8E1225FF5800DE0DA2 /* png.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = png.h; path = external/libpng/png.h; sourceTree = "<group>"; };
@@ -6510,7 +6510,7 @@
 				A00943F915181C8D0029A5C6 /* libcocos2d.a in Frameworks */,
 				A00943FA15181C8D0029A5C6 /* ApplicationServices.framework in Frameworks */,
 				A00943FB15181C8D0029A5C6 /* libz.dylib in Frameworks */,
-				A00943FC15181C8D0029A5C6 /* liblibpng.a in Frameworks */,
+				A00943FC15181C8D0029A5C6 /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6526,7 +6526,7 @@
 				A03416CF15487C3C00AE4D93 /* libcocos2d.a in Frameworks */,
 				A03416D015487C3C00AE4D93 /* ApplicationServices.framework in Frameworks */,
 				A03416D115487C3C00AE4D93 /* libz.dylib in Frameworks */,
-				A03416D215487C3C00AE4D93 /* liblibpng.a in Frameworks */,
+				A03416D215487C3C00AE4D93 /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6540,7 +6540,7 @@
 				A0443E7D14A42E4500E62742 /* libcocos2d.a in Frameworks */,
 				A0443E7E14A42E4500E62742 /* ApplicationServices.framework in Frameworks */,
 				A0443E7F14A42E4500E62742 /* libz.dylib in Frameworks */,
-				A0443E8014A42E4500E62742 /* liblibpng.a in Frameworks */,
+				A0443E8014A42E4500E62742 /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6555,7 +6555,7 @@
 				A04442F914A515EE00E62742 /* libcocos2d.a in Frameworks */,
 				A04442FA14A515EE00E62742 /* ApplicationServices.framework in Frameworks */,
 				A04442FB14A515EE00E62742 /* libz.dylib in Frameworks */,
-				A04442FC14A515EE00E62742 /* liblibpng.a in Frameworks */,
+				A04442FC14A515EE00E62742 /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6570,7 +6570,7 @@
 				A044437F14A5167E00E62742 /* libcocos2d.a in Frameworks */,
 				A044438014A5167E00E62742 /* ApplicationServices.framework in Frameworks */,
 				A044438114A5167E00E62742 /* libz.dylib in Frameworks */,
-				A044438214A5167E00E62742 /* liblibpng.a in Frameworks */,
+				A044438214A5167E00E62742 /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6630,7 +6630,7 @@
 				A098109514B9DDDA004812AD /* libcocos2d.a in Frameworks */,
 				A098109614B9DDDA004812AD /* ApplicationServices.framework in Frameworks */,
 				A098109714B9DDDA004812AD /* libz.dylib in Frameworks */,
-				A098109814B9DDDA004812AD /* liblibpng.a in Frameworks */,
+				A098109814B9DDDA004812AD /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6644,7 +6644,7 @@
 				A098117514B9DE1B004812AD /* libcocos2d.a in Frameworks */,
 				A098117614B9DE1B004812AD /* ApplicationServices.framework in Frameworks */,
 				A098117714B9DE1B004812AD /* libz.dylib in Frameworks */,
-				A098117814B9DE1B004812AD /* liblibpng.a in Frameworks */,
+				A098117814B9DE1B004812AD /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6658,7 +6658,7 @@
 				A098125514B9DE3A004812AD /* libcocos2d.a in Frameworks */,
 				A098125614B9DE3A004812AD /* ApplicationServices.framework in Frameworks */,
 				A098125714B9DE3A004812AD /* libz.dylib in Frameworks */,
-				A098125814B9DE3A004812AD /* liblibpng.a in Frameworks */,
+				A098125814B9DE3A004812AD /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6672,7 +6672,7 @@
 				A098133514B9DE55004812AD /* libcocos2d.a in Frameworks */,
 				A098133614B9DE55004812AD /* ApplicationServices.framework in Frameworks */,
 				A098133714B9DE55004812AD /* libz.dylib in Frameworks */,
-				A098133814B9DE55004812AD /* liblibpng.a in Frameworks */,
+				A098133814B9DE55004812AD /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6686,7 +6686,7 @@
 				A0ADF03D14584BD3009A71F1 /* libcocos2d.a in Frameworks */,
 				A0ADF03E14584BD3009A71F1 /* ApplicationServices.framework in Frameworks */,
 				A0ADF03F14584BD3009A71F1 /* libz.dylib in Frameworks */,
-				A0ADF04014584BD3009A71F1 /* liblibpng.a in Frameworks */,
+				A0ADF04014584BD3009A71F1 /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6725,7 +6725,7 @@
 				E026451212A59DA7009D04FE /* libcocos2d.a in Frameworks */,
 				E026451312A59DA7009D04FE /* ApplicationServices.framework in Frameworks */,
 				E026451412A59DA7009D04FE /* libz.dylib in Frameworks */,
-				E026451512A59DA7009D04FE /* liblibpng.a in Frameworks */,
+				E026451512A59DA7009D04FE /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6791,7 +6791,7 @@
 				E076EDA51225FDE300DE0DA2 /* libcocos2d.a in Frameworks */,
 				E076EDA61225FDE300DE0DA2 /* ApplicationServices.framework in Frameworks */,
 				E076EDA71225FDE300DE0DA2 /* libz.dylib in Frameworks */,
-				E076EFC11225FF8C00DE0DA2 /* liblibpng.a in Frameworks */,
+				E076EFC11225FF8C00DE0DA2 /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6812,7 +6812,7 @@
 				E076F21312268A9800DE0DA2 /* libcocos2d.a in Frameworks */,
 				E076F21412268A9800DE0DA2 /* ApplicationServices.framework in Frameworks */,
 				E076F21512268A9800DE0DA2 /* libz.dylib in Frameworks */,
-				E076F21612268A9800DE0DA2 /* liblibpng.a in Frameworks */,
+				E076F21612268A9800DE0DA2 /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6865,7 +6865,7 @@
 				E0B92DC61226A0C9003FF67E /* libcocos2d.a in Frameworks */,
 				E0B92DC71226A0C9003FF67E /* ApplicationServices.framework in Frameworks */,
 				E0B92DC81226A0C9003FF67E /* libz.dylib in Frameworks */,
-				E0B92DC91226A0C9003FF67E /* liblibpng.a in Frameworks */,
+				E0B92DC91226A0C9003FF67E /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6879,7 +6879,7 @@
 				E0B92EEF1226A621003FF67E /* libcocos2d.a in Frameworks */,
 				E0B92EF01226A621003FF67E /* ApplicationServices.framework in Frameworks */,
 				E0B92EF11226A621003FF67E /* libz.dylib in Frameworks */,
-				E0B92EF21226A621003FF67E /* liblibpng.a in Frameworks */,
+				E0B92EF21226A621003FF67E /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6919,7 +6919,7 @@
 				E0DA433B12A03A3C00210ACE /* libcocos2d.a in Frameworks */,
 				E0DA433C12A03A3C00210ACE /* ApplicationServices.framework in Frameworks */,
 				E0DA433D12A03A3C00210ACE /* libz.dylib in Frameworks */,
-				E0DA433E12A03A3C00210ACE /* liblibpng.a in Frameworks */,
+				E0DA433E12A03A3C00210ACE /* libpng.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6956,7 +6956,7 @@
 				E076E5C01225E97900DE0DA2 /* TransitionTest.app */,
 				E076EC601225F82200DE0DA2 /* TiledMapTest.app */,
 				E076EDAB1225FDE300DE0DA2 /* TextureTest.app */,
-				E076EDB91225FEAA00DE0DA2 /* liblibpng.a */,
+				E076EDB91225FEAA00DE0DA2 /* libpng.a */,
 				E076F21A12268A9800DE0DA2 /* SpriteTest.app */,
 				E0B92DCD1226A0C9003FF67E /* ParallaxTest.app */,
 				E0B92EF61226A621003FF67E /* EffectsAdvacedTest.app */,
@@ -8849,7 +8849,7 @@
 			);
 			name = libpng;
 			productName = libpng;
-			productReference = E076EDB91225FEAA00DE0DA2 /* liblibpng.a */;
+			productReference = E076EDB91225FEAA00DE0DA2 /* libpng.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E076F13512268A9800DE0DA2 /* SpriteTest */ = {
@@ -15135,28 +15135,58 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_EXCEPTIONS = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					DEBUG,
 					"CC_ENABLE_GL_STATE_CACHE=1",
 					"COCOS2D_DEBUG=2",
 				);
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
 				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_PROTOTYPE_CONVERSION = YES;
 				GCC_WARN_SHADOW = NO;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				GENERATE_PROFILING_CODE = YES;
 				HEADER_SEARCH_PATHS = (
 					external/Box2d,
 					external/Chipmunk/include/chipmunk,
 					external/kazmath/include,
 				);
+				LD_GENERATE_MAP_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -15415,6 +15445,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
