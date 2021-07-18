@@ -1,4 +1,4 @@
-<img src="http://www.cocos2d-iphone.org/downloads/cocos2d_logo.png">
+<img src="https://www.cocos.com/wp-content/themes/cocos_en/image/logo.png">
 
 cocos2d for iPhone
 ==================
@@ -95,11 +95,11 @@ Forum
 
 
 
-[1]: http://www.cocos2d-iphone.org "cocos2d for iPhone"
+[1]: http://web.archive.org/web/20120428022353/http://www.cocos2d-iphone.org:80/ "cocos2d for iPhone"
 [2]: http://www.cocos2d.org "cocos2d"
-[3]: http://www.cocos2d-iphone.org/wiki/doku.php/faq#i_found_a_bug_i_have_an_enhancement_proposal_what_should_i_do "contributing to cocos2d"
-[4]: http://www.cocos2d-iphone.org/forum "cocos2d for iPhone forum"
-[5]: http://www.cocos2d-iphone.org/download
-[6]: https://github.com/cocos2d/cocos2d-iphone/tree/gles20
+[3]: http://web.archive.org/web/20120428012354/http://www.cocos2d-iphone.org/wiki/doku.php/faq#i_found_a_bug_i_have_an_enhancement_proposal_what_should_i_do "contributing to cocos2d"
+[4]: http://web.archive.org/web/20120427211057/http://www.cocos2d-iphone.org/forum/ "cocos2d for iPhone forum"
+[5]: http://web.archive.org/web/20120427232841/http://www.cocos2d-iphone.org:80/download
+[6]: https://github.com/cocos2d/cocos2d-objc
 [7]: http://www.box2d.org
 [8]: http://www.chipmunk-physics.net
