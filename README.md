@@ -1,4 +1,4 @@
-<img src="https://www.cocos.com/wp-content/themes/cocos_en/image/logo.png">
+<img src="http://web.archive.org/web/20221126171858/https://www.cocos.com/wp-content/themes/cocos_en/image/logo.png">
 
 cocos2d for iPhone
 ==================
